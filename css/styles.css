@@ -1,12 +1,35 @@
 body {
   padding-top: 50px;
+  color: black;
+  text-size: 18px;
 }
-.starter-template {
+.profile-header {
   padding: 40px 15px;
   text-align: center;
 }
 
 header {
-  height: 1000px;
+  height: 475px;
   background-color: #0066CC;
+  padding-bottom: 40px;
+  color: white;
 }
+
+img {
+  border-radius: 125px;
+}
+
+.about {
+  padding: 40px 15px;
+  text-align:center;
+}
+.about p {
+  margin: 0 40px 10px;
+  font-size: 1.2em;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+
