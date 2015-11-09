@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="./assets/favicon.ico">
 
     <title>Sam Rae - Web Developer</title>
 
@@ -16,10 +16,11 @@
 
     <!-- Custom styles for this template -->
     <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/timeline.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="./js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -53,31 +54,167 @@
 
    
 
-      <header>
-        <div class="container">
-          <div class="profile-header">
-            <img src="./assets/profile_photo.jpg" alt="profile-picture">
-            <h1>SAM RAE</h1>
-            <p class="lead">Web Developer</p>
-          </div>
-        <div>  
-      </header>
-
-      <section>
-        <div class="container about">
-          <h2>ABOUT ME</h2>
-          <p>A physics graduate with ten years experience working in science communication and web content. I currently work as a Digital Content Developer for the Natural History Museum.</p>
-          <p>Having caught the web development bug during a part-time course at General Assembly earlier this year, I took a three-month career break in August to do the GA Web Development Immersive course.</p>
-          <p>Twelve weeks later I'm amazed by how much I've learnt in such a short space of time. I am now looking for a junior web development role so that I can change my career.</p>
+    <header>
+      <div class="container">
+        <div class="profile-header">
+          <img src="./assets/profile_photo.jpg" alt="profile-picture">
+          <h1>SAM RAE</h1>
+          <p class="lead">Web Developer</p>
         </div>
-      </section>
+      <div>  
+    </header>
 
-      <section class="portfolio">
-        <h2>PORTFOLIO</h2>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-      </section>
+    <section>
+      <div class="container about">
+        <h2>ABOUT ME</h2>
+        <p>A physics graduate with ten years experience working in science communication and web content. I currently work as a Digital Content Developer for the Natural History Museum.</p>
+        <p>Having caught the web development bug during a part-time course at General Assembly earlier this year, I took a three-month career break in August to do the GA Web Development Immersive course.</p>
+        <p>Twelve weeks later I'm amazed by how much I've learnt in such a short space of time. I am now looking for a junior web development role so that I can change my career.</p>
+      </div>
+    </section>
+
+    <div class = "container">
+    <section class="container portfolio">
+      <h2>PORTFOLIO</h2>
+      <div class="project-panel col-md-4">
+        <div class="thumbnail">
+          <img src="./assets/nyt_explorer_screenshot.jpg" alt="New York Times Explorer">
+          <div class="caption">
+            <h3>New York Times Explorer</h3>
+            <p>Explore 150 years of NYT articles, browsing by keyword, date and location. Built using Angular, Node JS and Express and using the New York Times API.</p>
+            <p>
+              <a href="http://nyt-explorer.herokuapp.com/" class="btn btn-default" role="button">Demo</a>
+              <a href="http://github.com/samrae7/NewYorkTimesExplorer" class="btn btn-default" role="button">GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-panel col-md-4">
+        <div class="thumbnail">
+          <img src="./assets/evolution_game.jpg" alt="Evolution Game">
+          <div class="caption">
+            <h3>Evolution Game</h3>
+            <p>Take on the role of a bird trying to survive. Unfortunately natural selection starts to get in the way. A simple game built using HTML, CSS, javascript and jQuery..</p>
+            <p>
+              <a href="http://samrae7.github.io/GA-project-evolution-game/" class="btn btn-default" role="button">Demo</a>
+              <a href="http://github.com/samrae7/GA-project-evolution-game" class="btn btn-default" role="button">GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-panel col-md-4">
+        <div class="thumbnail">
+          <img src="./assets/corals_quiz.jpg" alt="corals quiz">
+          <div class="caption">
+            <h3>Corals Quiz</h3>
+            <p>A simple interactive quiz, based around the Natural History Museum’s corals exhibition and designed with mobile phones and tablets in mind.</p>
+            <p>
+              <a href="http://samrae7.github.io/corals-quiz/" class="btn btn-default" role="button">Demo</a>
+              <a href="https://github.com/samrae7/corals-quiz" class="btn btn-default" role="button">GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="timeline-header page-header">
+        <h2>TIMELINE</h2>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">General Assembly 12-week full-time course: Web Development Immersive, August - Nov 2015 </h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>General Assembly 12-week full-time course: Web Development Immersive, August - Nov 2015 One of the most rewarding and intense experiences of my life so far. It confirmed for me that I really love coding and want to make it my career. During the course I completed three personal projects:</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+              <hr>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                  <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
 
    
 
@@ -88,8 +225,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

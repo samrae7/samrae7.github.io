@@ -15,7 +15,7 @@ header {
   color: white;
 }
 
-img {
+header img {
   border-radius: 125px;
 }
 
@@ -31,5 +31,4 @@ img {
 .portfolio {
   text-align: center;
 }
-
 
