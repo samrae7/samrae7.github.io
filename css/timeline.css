@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.timeline-logo {
+    vertical-align: top;
+}
+
     .timeline:before {
         top: 0;
         bottom: 0;
