@@ -19,7 +19,7 @@ header img {
   border-radius: 125px;
 }
 
-.about {
+.about, .contact{
   padding: 40px 15px;
   text-align:center;
 }
@@ -50,7 +50,11 @@ ul.social-buttons li a {
 }
 
 footer {
-    height: 300px;
+    height: 70px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: white;
 }
 
 

@@ -6,6 +6,13 @@
 
 .timeline-logo {
     vertical-align: top;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.iop-logo {
+    border: 1px solid #eee;
 }
 
     .timeline:before {

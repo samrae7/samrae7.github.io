@@ -41,40 +41,37 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">SAM RAE</a>
+          <a class="navbar-brand scroll-top" href="#">SAM RAE</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="scroll-link" href="#" data-id="about">About</a></li>
+            <li><a class="scroll-link" href="#" data-id="portfolio">Portfolio</a></li>
+            <li><a class="scroll-link" href="#" data-id="career">Career</a></li>
+            <li><a class="scroll-link" href="#" data-id="contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-   
 
     <header>
       <div class="container">
         <div class="profile-header">
           <img src="./assets/profile_photo.jpg" alt="profile-picture">
           <h1>SAM RAE</h1>
-          <p class="lead">Web Developer</p>
+          <p class="lead">Junior Web Developer</p>
         </div>
       <div>  
     </header>
 
-    
-    <section class="container about">
+    <section id="about" class="container about">
       <h2>ABOUT ME</h2>
       <p>A physics graduate with ten years experience working in science communication and web content. I currently work as a Digital Content Developer for the Natural History Museum.</p>
       <p>Having caught the web development bug during a part-time course at General Assembly earlier this year, I took a three-month career break in August to do the GA Web Development Immersive course.</p>
       <p>Twelve weeks later I'm amazed by how much I've learnt in such a short space of time. I am now looking for a junior web development role so that I can change my career.</p>
     </section>
 
-    <div class = "container">
-    <section class="container portfolio">
+    <section id="portfolio" class="container portfolio">
       <h2>PORTFOLIO</h2>
       <div class="project-panel col-md-4">
         <div class="thumbnail">
@@ -117,29 +114,33 @@
       </div>
     </section>
 
-    <div class="container">
+    <section id="career" class="container career">
       <div class="timeline-header page-header">
-        <h2>TIMELINE</h2>
+        <h2>CAREER</h2>
       </div>
       <ul class="timeline">
         <li>
-          <div class="timeline-badge"><!-- <i class="glyphicon glyphicon-check"></i> --><img class='timeline-logo' src="./assets/ga_cog.jpg" alt="GA logo"></div>
+          <div class="timeline-badge">
+            <img class='timeline-logo' src="./assets/ga_cog.jpg" alt="GA logo">
+          </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">General Assembly 12-week full-time course: Web Development Immersive</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> August - Nov 2015 </small></p>
-             
+              <p><i class="glyphicon glyphicon-calendar"></i> August - Nov 2015 </p>
             </div>
             <div class="timeline-body">
-              <p>One of the most rewarding and intense experiences of my life so far. It confirmed for me that I really love coding and want to make it my career. During the course I completed three personal projects.</p>
+              <p>One of the most rewarding and intense experiences of my life so far. It confirmed for me that I really love coding and want to make it my career. Check out my course projects by following links from the portfolio section.</p>
             </div>
           </div>
         </li>
         <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge">
+            <img class='timeline-logo' src="./assets/ga_cog.jpg" alt="GA logo">
+          </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">General Assembly 10 week part-time course: Front End Web Development, Dec 2014 - Feb 2015 </h4>
+              <h4 class="timeline-title">General Assembly 10 week part-time course: Front End Web Development</h4>
+              <p><i class="glyphicon glyphicon-calendar"></i> Dec 2014 - March 2015 </p>
             </div>
             <div class="timeline-body">
               <p>A hands-on and in-depth course covering HTML, CSS and Javascript with jQuery. My final project was a simple interactive quiz, based around the Natural History Museum’s corals exhibition and designed with mobile phones and tablets in mind.</p>
@@ -147,10 +148,11 @@
           </div>
         </li>
         <li>
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge"><img class='timeline-logo' src="./assets/nhm_icon.jpg" alt="NHM logo"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Digital Content Developer, Natural History Museum — 2008-present </h4>
+              <h4 class="timeline-title">Digital Content Developer, Natural History Museum</h4>
+              <p><i class="glyphicon glyphicon-calendar"></i> 2008 - present </p>
             </div>
             <div class="timeline-body">
               <p>Devise and write online learning resources to meet the needs of teachers and pupils. Responsible for keeping all schools information on the Museum website up to date and manage one-off projects around this. I use the Adobe Experience Manager CMS to update the website, Photoshop to edit images and HTML and CSS to create the monthly teacher e-news.</p>
@@ -158,9 +160,11 @@
           </div>
         </li>
         <li class="timeline-inverted">
+          <div class="timeline-badge"><img class='timeline-logo iop-logo' src="./assets/iop_logo.jpg" alt="IOP logo"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Outreach Officer / Editor of Physics.org, Institute of Physics - 2004- 08 </h4>
+              <h4 class="timeline-title">Outreach Officer / Editor of Physics.org, Institute of Physics</h4>
+              <p><i class="glyphicon glyphicon-calendar"></i> 2004 - 08 </p>
             </div>
             <div class="timeline-body">
               <p>Worked as part of the Physics in Society team to devise and implement physics outreach activities for informal learners, especially children aged 11-14. From 2006 onwards, I was editor of www.physics.org, a physics website aimed at a non-specialist audience.</p>
@@ -168,20 +172,23 @@
           </div>
         </li>
         <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+          <div class="timeline-badge"><img class='timeline-logo iop-logo' src="./assets/imperial_crest.jpg" alt="Imperial College crest"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Imperial College London - MSc Science Media Production 2003 - 2004</h4>
+              <h4 class="timeline-title">Imperial College London - MSc Science Media Production</h4>
+              <p><i class="glyphicon glyphicon-calendar"></i> 2003 - 2004</p>
             </div>
             <div class="timeline-body">
               <p>I took this course to pursue my interest in science communication and subsequently worked in science outreach at the Institute of Physics.</p>
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge"><img class='timeline-logo iop-logo' src="./assets/notts_uni_logo.jpg" alt="Nottingham University logo"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">University of Nottingham - BSc (First class), Physics and Philosophy, Joint Honours</h4>
+              <p><i class="glyphicon glyphicon-calendar"></i> 1998 - 2001</p>
             </div>
             <div class="timeline-body">
               <p>I love physics. Philosophy was pretty cool too.</p>
@@ -189,11 +196,10 @@
           </div>
         </li>
       </ul>
-    </div>
+    </section>
 
-    <section class="container contact">
+    <section id="contact" class="container contact">
       <h2>CONTACT</h2>
-      <p class='lead'>Drop me a line</p>
       <p class='lead'>samuelrae@gmail.com</p>
       <ul class="list-inline social-buttons">
         <li>
@@ -214,5 +220,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/scrolling-links.js"></script>
   </body>
 </html>
