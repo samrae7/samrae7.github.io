@@ -22,11 +22,6 @@ header img {
 
 .about, .contact{
   padding: 40px 15px;
-  text-align:center;
-}
-.about p {
-  margin: 0 40px 10px;
-  font-size: 1.2em;
 }
 
 .portfolio, .contact {
@@ -60,6 +55,21 @@ footer {
 
 h1,h2 {
   font-family: 'Oswald', sans-serif;
+  text-align:center;
 }
+.about p {
+    font: 400 16px/30px 'Quattrocento', sans-serif;
+    margin: 0 auto;
+    padding:10px 0;
+}
+
+.about-text-border {
+  border-bottom: 2px solid #eee;
+  border-top: 2px solid #eee;
+  padding: 10px 0;
+  margin: 30px auto;
+  width: 50%;
+}
+
 
 
