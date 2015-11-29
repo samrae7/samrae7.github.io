@@ -63,6 +63,7 @@ h1,h2 {
     padding:10px 0;
 }
 
+
 .about-text-border {
   border-bottom: 2px solid #eee;
   border-top: 2px solid #eee;
@@ -70,6 +71,20 @@ h1,h2 {
   margin: 30px auto;
   width: 50%;
 }
+
+@media (max-width: 767px) {
+  .about-text-border {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-text-border {
+    width: 65%;
+  }
+
+}
+
 
 .portfolio-row1 {
   margin-top: 20px;
