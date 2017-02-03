@@ -85,9 +85,11 @@ h1,h2 {
 
 }
 
-
 .portfolio-row1 {
   margin-top: 20px;
 }
 
+.portfolio-heading {
+    text-transform: uppercase;
+}
 
